@@ -1,0 +1,3 @@
+cat snippet>>~/.bashrc
+. ~/.bashrc
+

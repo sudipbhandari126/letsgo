@@ -1,0 +1,19 @@
+#code snippet begin here for the letsgo program
+function open_captive_portal {
+ google-chrome "192.168.1.1:8090"
+}
+
+function open_work_email {
+ google-chrome "mail.google.com"
+}
+
+function open_slack_channel {
+ google-chrome "https://axisrooms.slack.com/messages"
+}
+
+function open_trello {
+ google-chrome "https://www.trello.com"
+}
+
+#don't put space on either side of "=" sign
+alias letsgo='open_captive_portal;open_work_email;open_slack_channel;open_trello'
